@@ -1,5 +1,12 @@
 Steps taken to set up this system.
 
 1. **Install WinPcap or npcap and Snort**:
-   -You can download using these websites.
+   -You can download using these websites https://nmap.org/npcap/  https://www.snort.org/downloads.
+
+2. **Set up and Configure snort**:
+   -Download the rules compatible with the version of snort you ave
+   -Copy the 'rules' and 'preproc_rules' from the newly downloaded rules file into the Snort folder
+   -The snort.conf file is located in the etc folder of Snort, and edit using Notepad++ and edit the configurations to match your system.
+
+3: **Running Snort**
  
