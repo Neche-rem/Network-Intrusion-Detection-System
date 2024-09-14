@@ -11,5 +11,10 @@ Steps taken to set up this system.
 3: **Running Snort**
    -To run the snort, in the command line of your windows system, ensure that you are in the snort folder, cd to bin
    -To endure you have no errors in configuration run the snort -T -c /path/to/snort.conf
-   -After confirmation, you can run the ```snort -W``` and this shows the available 
+   -After confirmation, you can run the ```snort -W``` and this shows the available interfaces on your network.
+
+These findings can now bw analysed using other tools like Snorby, BASE, or Command line commands.
+Log analysis and alert rules can be created and regularly updated to adapt to new threats based on the organisation's needs.
+Monitor the NIDS for alerts and refine the detection rules.
+
  
