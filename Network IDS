@@ -9,4 +9,7 @@ Steps taken to set up this system.
    -The snort.conf file is located in the etc folder of Snort, and edit using Notepad++ and edit the configurations to match your system.
 
 3: **Running Snort**
+   -To run the snort, in the command line of your windows system, ensure that you are in the snort folder, cd to bin
+   -To endure you have no errors in configuration run the snort -T -c /path/to/snort.conf
+   -After confirmation, you can run the ```snort -W``` and this shows the available 
  
